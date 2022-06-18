@@ -4,6 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Currently working as an intern @CLOVA
-
+Currently working as an intern @[CLOVA](https://clova.ai/)
 
