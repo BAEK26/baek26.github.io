@@ -1,6 +1,6 @@
 ---
 layout: blog
-permalink: /blog/
+permalink: /log/
 title: Jongeun BAEK | Log
 pagination:
   enabled: true
