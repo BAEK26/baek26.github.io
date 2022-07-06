@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Naver CLOVA
+title: Naver CLOVA | BAEK
 categories: [Internship, Experience]
 ---
 
@@ -15,8 +15,8 @@ categories: [Internship, Experience]
 
 코딩테스트는 코딜리티에서 진행했다. 코테 전, 전반적인 전형의 분위기를 알고자 후기를 찾아봤지만 많이 찾지는 못했고, [이 링크](https://blog.naver.com/revan2426/221899780383)와 [이 링크](https://siahn95.tistory.com/entry/%EB%84%A4%EC%9D%B4%EB%B2%84-NLP-%EC%9D%B8%ED%84%B4-%EB%A9%B4%EC%A0%91-%ED%9B%84%EA%B8%B0)를 통해 많은 도움을 얻을 수 있었다. 코딩테스트 난이도는 어렵지 않았던 것으로 기억한다. 
 
-구체적인 내용은 대외비라 밝힐 수는 없지만, 문자열을 다루는 문제가 나왔고, 엣지 케이스를 다루는 게 중요했었다.
+구체적인 내용은 대외비라 밝힐 수는 없지만, 문자열을 다루는 문제가 3개 나왔고 엣지 케이스를 다루는 게 중요했었다.
 
 ![interview noti](https://github.com/BAEK26/log_src/blob/main/post_src/2022-06-19-Naver%20CLOVA%20%EC%9D%B8%ED%84%B4%20%ED%95%A9%EA%B2%A9%20%EC%88%98%EA%B8%B0/interview_noti.png?raw=true)
 
-...
+이후, 
