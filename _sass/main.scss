@@ -31,10 +31,10 @@ body {
   align-content: center;
   width: 100%;
   max-width: 400px;
-  height: 100%;
+  height: 88vh;
   margin: auto;
   font-size: 1.5rem;
-  // overflow: hidden;
+  overflow: hidden;
   @include mediaQuery(phone-width) {
     font-size: 1 rem;
     span {
