@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Naver CLOVA | BAEK
+title: Naver CLOVA
 categories: [Internship, Experience]
 ---
 

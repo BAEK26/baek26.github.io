@@ -1,6 +1,6 @@
 cv_url: "2022 CV.pdf"
 author_name: "Jongeun BAEK"
-url: jongeunBaek.com
+url: https://baek26.github.io/
 
 plugins:
   - jekyll-seo-tag
