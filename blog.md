@@ -1,7 +1,7 @@
 ---
 layout: blog
 permalink: /log/
-title: Log | Jongeun
+title: Log | Jong-eun
 pagination:
   enabled: true
 ---
