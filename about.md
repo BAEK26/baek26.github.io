@@ -5,7 +5,7 @@ permalink: /about/
 ---
 Contact: bje1126@postech.ac.kr   
    
-   
+
 Hello, I am Baek Jong-eun.
 
 I have a huge interest in Artificial Intelligence Assistant for knowledge. from Question Answering in Natural Language Processing, Information Retrival, Machine Reading Comprehension, and to Language generation model.
@@ -26,15 +26,15 @@ I have been studying [Computer Science and Engineering](https://cse.postech.ac.k
    * Studied Seq2Seq
 
 ## Education
-$3^{rd}$ year in Computer Science and Engineering @[Pohang University of Science and Technology](https://postech.ac.kr) - (2020 - Present)
+3rd year in Computer Science and Engineering @[Pohang University of Science and Technology](https://postech.ac.kr) - (2020 - Present)
 
 [Hanil HighSchool](http://www.hanilgo.cnehs.kr/main.do) - (2017 - 2020)
 ## Awards
-* Undergraduate Group Research Program - $3^{rd}$ Prize (2021)
+* Undergraduate Group Research Program - 3rd Prize (2021)
    * [analysis of Student's concentration in online course using 3D-CNN](https://github.com/BAEK26/2021-UGRP)
-* Postech Programming Contest - $2^{nd}Prize$ (2021)
+* Postech Programming Contest - 2nd Prize (2021)
 * Capstone Design Contest @[2021 
-Fall ESK](https://esk.or.kr/)- $2^{nd}Prize$ (2021)   
+Fall ESK](https://esk.or.kr/)- 2nd Prize (2021)   
 
 **WIP**
 ## Extracurricular Activities
