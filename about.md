@@ -26,9 +26,9 @@ I have been studying [Computer Science and Engineering](https://cse.postech.ac.k
    * Studied Seq2Seq
 
 ## Education
-3rd year in Computer Science and Engineering @[Pohang University of Science and Technology](https://postech.ac.kr) - (2020 - Present)
+* 3rd year in Computer Science and Engineering @[Pohang University of Science and Technology](https://postech.ac.kr) - (2020 - Present)
 
-[Hanil HighSchool](http://www.hanilgo.cnehs.kr/main.do) - (2017 - 2020)
+* [Hanil HighSchool](http://www.hanilgo.cnehs.kr/main.do) - (2017 - 2020)
 ## Awards
 * Undergraduate Group Research Program - 3rd Prize (2021)
    * [analysis of Student's concentration in online course using 3D-CNN](https://github.com/BAEK26/2021-UGRP)
