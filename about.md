@@ -16,7 +16,7 @@ I have been studying [Computer Science and Engineering](https://cse.postech.ac.k
 
 ## Work Experience
 * Artificial Intelligence Researcher Intern specialized in NLP @[CLOVA]((https://clova.ai/)) in [Naver](https://www.navercorp.com/) - (Jun 2022 - Present)
-   * Working on IR
+   * [Experiential Internship] Working on IR
 
 ## Research Experience
 * Undergraduate Student Research Intern @ISOFT, Postech - (Dec 2021 - Feb 2022)
