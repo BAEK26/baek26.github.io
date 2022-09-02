@@ -15,7 +15,7 @@ My goal is to develop the Assistant to explain any knowledge. In order to achiev
 I have been studying [Computer Science and Engineering](https://cse.postech.ac.kr) in [Postech](https://postech.ac.kr) .   
 
 ## Work Experience
-* Artificial Intelligence Researcher Intern specialized in NLP @[CLOVA]((https://clova.ai/)) in [Naver](https://www.navercorp.com/) - (Jun 2022 - Present)
+* Artificial Intelligence Researcher Intern specialized in NLP @[CLOVA]((https://clova.ai/)) in [Naver](https://www.navercorp.com/) - (Jun 2022 - Sep 2022)
    * [Experiential Internship] Working on IR
 
 ## Research Experience
