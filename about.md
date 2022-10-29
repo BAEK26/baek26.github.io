@@ -3,7 +3,7 @@ layout: description
 title: About
 permalink: /about/
 ---
-Contact: bje1126@postech.ac.kr   
+Contact: jongeun.baek@postech.ac.kr   
    
 
 Hello, I am Baek Jong-eun.
