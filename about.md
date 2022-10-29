@@ -30,11 +30,9 @@ I have been studying [Computer Science and Engineering](https://cse.postech.ac.k
 
 ## Awards
 * Undergraduate Group Research Program - 3rd Prize (2021)
-   * [analysis of Student's concentration in online course using 3D-CNN](https://github.com/BAEK26/2021-UGRP)    
 * Postech Programming Contest - 2nd Prize (2021)     
 * Capstone Design Contest @[2021 
 Fall ESK](https://esk.or.kr/)- 2nd Prize (2021)
-   * Emotional engineering improvement of online course platform UI/UX to promote non-face-to-face communication between instructors and learners     
 
 **WIP**
 ## Extracurricular Activities
