@@ -25,7 +25,8 @@ I have been studying [Computer Science and Engineering](https://cse.postech.ac.k
    * Studied Seq2Seq
 
 ## Education
-* 3rd year in Computer Science and Engineering @[Pohang University of Science and Technology](https://postech.ac.kr) - (2020 - Present)    
+* Exchange student in Informatik @[RWTH Aachen University, Germany](https://www.rwth-aachen.de) - (2023 - Present)
+* 4th year in Computer Science and Engineering @[Pohang University of Science and Technology](https://postech.ac.kr) - (2020 - Present)    
 * [Hanil HighSchool](http://www.hanilgo.cnehs.kr/main.do) - (2017 - 2020)   
 
 ## Awards
@@ -34,7 +35,9 @@ I have been studying [Computer Science and Engineering](https://cse.postech.ac.k
 * Capstone Design Contest @[2021 
 Fall ESK](https://esk.or.kr/)- 2nd Prize (2021)
 
-**WIP**
 ## Extracurricular Activities
+* External Relations at Uni-D (Organized Hackathon) (2022)
+**WIP**
+
 ## Papers   
 ## Projects
