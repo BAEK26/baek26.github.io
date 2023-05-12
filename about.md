@@ -37,6 +37,7 @@ Fall ESK](https://esk.or.kr/)- 2nd Prize (2021)
 
 ## Extracurricular Activities
 * External Relations at Uni-D (Organized Hackathon) (2022)
+
 **WIP**
 
 ## Papers   
