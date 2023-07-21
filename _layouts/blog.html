@@ -14,7 +14,11 @@ pagetype: blog
     <li><a href="{{ "/categories/" | relative_url }}">Categories</a> : </li>
     {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        <li><a href="{{"/categories/#" | append: category_name | relative_url}}">{{category_name}}</a></li>
+        {% if category_name == "log"%}
+            <a href="www.baek26.blogspot.com">{{category_name}}</a>
+        {% else %}
+            <li><a href="{{"/categories/#" | append: category_name | relative_url}}">{{category_name}}</a></li>
+        {% endif %}
     {% endfor %}
 </ul>
 </div>
