@@ -2,7 +2,7 @@
 ---
 layout: post
 comments: true
-title: WebSQL 지원 브라우저
+title: WebSQL supporting browser
 categories: [sql]
 ---
 
@@ -25,7 +25,7 @@ SELECT Customers.CustomerID, Orders.OrderID FROM Customers LEFT JOIN Orders USIN
 
 w3school 에서 안내하기로 oracle의 Opera나 safari, chrome에서 사용하라고 했는데, 세 브라우저 모두 설치해서 사용했는데도 다 동작이 안된다!
 
-![image](https://www.notion.so/WebSQL-1f2bf7b1f6a3447eb29edb97d9bdc195?pvs=4#fcb3912bcca14ee2b42d5c6d39f2e683)
+
 
 그래서 해결책은 다음과 같다.
 

@@ -2,7 +2,7 @@
 ---
 layout: post
 comments: true
-title: 드라마 사랑의 이해
+title: Drama The Interest of Love
 categories: [drama, review]
 ---
 

@@ -2,7 +2,7 @@
 ---
 layout: post
 comments: true
-title: Mac Onedrive 파일을 열 수 없습니다.
+title: Mac Onedrive Cannot open the file
 categories: [Mac]
 ---
 

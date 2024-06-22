@@ -2,7 +2,7 @@
 ---
 layout: post
 comments: true
-title: Mac mailto outlook 설정
+title: Mac mailto outlook setting
 categories: [Mac]
 ---
 
