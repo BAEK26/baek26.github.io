@@ -2,7 +2,7 @@
 ---
 layout: post
 comments: true
-title: WebSQL supporting browser
+title: 2024-03-15-WebSQL supporting browser
 categories: [sql]
 ---
 

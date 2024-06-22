@@ -2,7 +2,7 @@
 ---
 layout: post
 comments: true
-title: Mac mailto outlook setting
+title: 2024-03-29-Mac mailto outlook setting
 categories: [Mac]
 ---
 
