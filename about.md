@@ -3,16 +3,14 @@ layout: description
 title: About
 permalink: /about/
 ---
-Contact: jongeun.baek@postech.ac.kr   
+Contact: jongeun.baek@kaist.ac.kr   
    
 
-Hello, I am Baek Jong-eun.
+Hello, I'm Jongeun Baek.
 
-I have a huge interest in Artificial Intelligence Assistant for knowledge. from Question Answering in Natural Language Processing, Information Retrival, Machine Reading Comprehension, and to Language generation model.
+I am deeply passionate about creating reliable Natural Language Processing (NLP) models, with a particular focus on developing an Artificial Intelligence Assistant capable of explaining any knowledge domain. To achieve this, I began by working on Question Answering Systems within NLP. A profound understanding of NLP models is essential to reach this objective. I am interested in any endeavor that brings me closer to realizing the vision of a comprehensive Knowledge Assistant. 
 
-My goal is to develop the Assistant to explain any knowledge. In order to achieve a goal, I have started from Question Answering System in NLP. Whatever close to the Knowldege Assistant would be my interset.
-
-I have been studying [Computer Science and Engineering](https://cse.postech.ac.kr) in [Postech](https://postech.ac.kr) .   
+I am currently pursuing a Master of Science degree at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) at the [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/). Previously, I studied [Computer Science and Engineering](https://cse.postech.ac.kr) at [POSTECH](https://postech.ac.kr).
 
 ## Work Experience
 * Artificial Intelligence Researcher Intern specialized in NLP @[CLOVA]((https://clova.ai/)) in [Naver](https://www.navercorp.com/) - (Jun 2022 - Sep 2022)
@@ -25,8 +23,9 @@ I have been studying [Computer Science and Engineering](https://cse.postech.ac.k
    * Studied Seq2Seq
 
 ## Education
-* Exchange student in Informatik @[RWTH Aachen University, Germany](https://www.rwth-aachen.de) - (2023 - Present)
-* 4th year in Computer Science and Engineering @[Pohang University of Science and Technology](https://postech.ac.kr) - (2020 - Present)    
+* M.S in AI @[Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) - (2025 - present)
+* Exchange student in Informatik @[RWTH Aachen University, Germany](https://www.rwth-aachen.de) - (2023 - 2023)
+* B.S in Computer Science and Engineering @[Pohang University of Science and Technology](https://postech.ac.kr) - (2020 - 2025)    
 * [Hanil HighSchool](http://www.hanilgo.cnehs.kr/main.do) - (2017 - 2020)   
 
 ## Awards
@@ -38,7 +37,5 @@ Fall ESK](https://esk.or.kr/)- 2nd Prize (2021)
 ## Extracurricular Activities
 * External Relations at Uni-D (Organized Hackathon) (2022)
 
-**WIP**
-
 ## Papers   
-## Projects
+* [J1] Risk Detection through Firearm Recognition Using Deep Learning-Based Object-Human Heterogeneous Graph Extraction (2024)
