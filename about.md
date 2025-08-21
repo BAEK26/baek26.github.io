@@ -8,9 +8,13 @@ Contact: jongeun.baek@kaist.ac.kr
 
 Hello, I'm Jongeun Baek.
 
-I am deeply passionate about creating reliable Natural Language Processing (NLP) models, with a particular focus on developing an Artificial Intelligence Assistant capable of explaining any knowledge domain. To achieve this, I began by working on Question Answering Systems within NLP. A profound understanding of NLP models is essential to reach this objective. I am interested in any endeavor that brings me closer to realizing the vision of a comprehensive Knowledge Assistant. 
+My research focuses on building reliable language models. I currently work in Mechanistic Interpretability in Large Language Models and Explainable AI, pursuing the long-term goal of an AI assistant that can explain knowledge across domains in a trustworthy manner. 
 
-I am currently pursuing a Master of Science degree at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr) at the [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/). Previously, I studied [Computer Science and Engineering](https://cse.postech.ac.kr) at [POSTECH](https://postech.ac.kr).
+I am a Master’s student in the *Statistical Artificial Intelligence Lab* ([SAIL](https://sailab.kaist.ac.kr/)) at [KAIST]((https://gsai.kaist.ac.kr)), advised by Prof. Jaesik Choi. Previously, I studied [Computer Science and Engineering](https://cse.postech.ac.kr) at [POSTECH](https://postech.ac.kr).
+
+## Papers   
+* [C1] When Format Changes Meaning: Investigating Semantic Inconsistency of Large Language Models (*EMNLP Findings* 2025)
+* [J1] Risk Detection through Firearm Recognition Using Deep Learning-Based Object-Human Heterogeneous Graph Extraction (2024)
 
 ## Work Experience
 * Artificial Intelligence Researcher Intern specialized in NLP @[CLOVA]((https://clova.ai/)) in [Naver](https://www.navercorp.com/) - (Jun 2022 - Sep 2022)
@@ -36,6 +40,3 @@ Fall ESK](https://esk.or.kr/)- 2nd Prize (2021)
 
 ## Extracurricular Activities
 * External Relations at Uni-D (Organized Hackathon) (2022)
-
-## Papers   
-* [J1] Risk Detection through Firearm Recognition Using Deep Learning-Based Object-Human Heterogeneous Graph Extraction (2024)
