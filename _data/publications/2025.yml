@@ -1,0 +1,15 @@
+- title: "When Format Changes Meaning: Investigating Semantic Inconsistency of Large Language Models"
+  authors: ["Cheongwoong Kang", "Jongeun Baek", "Yeonjea Kim", "Jaesik Choi"]
+  venue: "Findings of EMNLP"
+  tags: ["LLM", "Semantic Inconsistency"]
+  pdf:
+  arxiv:
+  code:
+  project_url: 
+  bibtex: |
+    @inproceedings{kang2025when,
+      title={When Format Changes Meaning: Investigating Semantic Inconsistency of Large Language Models},
+      author={Kang, Cheongwoong and Baek, Jongeun and Kim, Yeonjea and Choi, Jaesik},
+      booktitle={Findings of EMNLP},
+      year={2025}
+    }

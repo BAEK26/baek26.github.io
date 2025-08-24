@@ -1,52 +1,115 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="{{"/favicon.ico" | relative_url }}" type="image/x-icon" />
-    <link rel="dns-prefetch" href="https://{{ site.disqus.shortname }}.disqus.com">
-    <meta
-    itemprop="description"
-    name="description"
-    content="
-        {% if page.description %}
-            {{ page.description | truncate: 160 }}
-        {% else %}
-            {{ site.description | truncate: 160  }}
-        {% endif %}"
-    />
-    <title>
-      {%if page.title %}
-          {{ page.title }} | BAEK
-      {% else %}
-          {{ site.title }}
-      {% endif %}
-    </title>
-    <!-- async load css file -->
-    <link rel="stylesheet" href="{{"/assets/css/styles.css" | relative_url}}" media="none" onload="if(media!='all')media='all'">
-    <!-- Load css when script is disabled -->
-    <noscript><link rel="stylesheet" href="{{"/assets/css/styles.css" | relative_url}}"></noscript>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>
+    {% if page.url == "/" or page.permalink == "/" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }} | {{ site.title }}
+    {% endif %}
+  </title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="icon" href="{{ "/favicon.svg" | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ "/assets/css/site.css" | relative_url }}">
+  <script>
+    (function(){
+      try{
+        var pref = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', pref);
+      }catch(e){}
+    })();
+  </script>
+  {% if site.google_analytics %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
+</head>
+<body onload="onLoad()">
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="profile">
+        <img class="avatar" src="{{ "/images/profile.png" | relative_url }}" alt="Profile photo of {{ site.title }}">
+        <h1 class="name">{{ site.title }}</h1>
+        <p class="role">{{ site.profile.role }}</p>
+        <p class="aff">{{ site.profile.affiliation }}</p>
+        <p class="loc">{{ site.profile.location }}</p>
+        <p class="email-text">jongeun.baek[AT]kaist.ac.kr</p>
+        <div class="links">
+          {% if site.profile.github %} <a aria-label="GitHub" href="{{ site.profile.github }}"><img alt="GitHub" src="{{ "/images/github_icon.svg" | relative_url }}" width="18" height="18"></a>{% endif %}
+          {% if site.profile.scholar %} <a aria-label="Google Scholar" href="{{ site.profile.scholar }}"><img alt="Scholar" src="{{ "/images/scholar_icon.png" | relative_url }}" width="18" height="18"></a>{% endif %}
 
-    <!-- Dns Prefetch the google analytics -->
-    <link rel="dns-prefetch" href="www.googletagmanager.com">
-    <link rel="dns-prefetch" href="www.google-analytics.com">
+          {% if site.profile.linkedin %} <a aria-label="LinkedIn" href="{{ site.profile.linkedin }}"><img alt="LinkedIn" src="{{ "/images/linkedin_icon.svg" | relative_url }}" width="18" height="18"></a>{% endif %}
+        </div>
+      </div>
 
+      <nav class="nav">
+        <ul>
+          {% for item in site.nav %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
 
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </aside>
 
-    <!-- Load the script async and wait for the page to render for script to execute -->
-    <script defer src="{{"/assets/js/theme.js" | relative_url }}"></script>
-    <script defer src="{{"/assets/js/script.js" | relative_url }}"></script>
-
-    {% include analytics.html %}
-    {% feed_meta %}
-    {% seo %}
-
-  </head>
-    <body onload="onLoad()">
+    <main class="content">
       {% include themeSelector.html %}
       {{ content }}
-      <div id="page_views">
-        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=003a1e&w=300&t=n&d=YS2kkpv35P5lOUvEape9JlrWgbf9fRxUkgZV0OyAd6k&co=ffffff&cmo=a83030&cmn=fc0021&ct=ffffff'></script>
-      </div>
-    </body>
+      <footer class="footer">
+        <span>&copy; {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.</span>
+      </footer>
+      <div id="page_views"></div>
+      <script>
+        (function(){
+          var DAY = "//cdn.clustrmaps.com/map_v2.js?cl=f2f2f2&w=345&t=n&d=YS2kkpv35P5lOUvEape9JlrWgbf9fRxUkgZV0OyAd6k&co=ffffff&cmo=003a1e&cmn=fc0021&ct=0f172a";
+          var NIGHT = "//cdn.clustrmaps.com/map_v2.js?cl=243041&w=345&t=n&d=YS2kkpv35P5lOUvEape9JlrWgbf9fRxUkgZV0OyAd6k&co=0b0f14&cmo=66ffcc&cmn=ff6b6b&ct=e5e7eb";
+          var container = document.getElementById('page_views');
+          function loadMap(theme){
+            if(!container) return;
+            container.innerHTML = '';
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.id = 'clustrmaps';
+            s.src = (theme === 'dark' ? NIGHT : DAY);
+            s.async = true;
+            container.appendChild(s);
+          }
+          var cur = document.documentElement.getAttribute('data-theme') || 'light';
+          loadMap(cur);
+          var mo = new MutationObserver(function(){
+            var t = document.documentElement.getAttribute('data-theme') || 'light';
+            loadMap(t);
+          });
+          mo.observe(document.documentElement, { attributes:true, attributeFilter:['data-theme'] });
+        })();
+      </script>
+    </main>
+  </div>
+
+  <script src="{{ "/assets/js/theme.js" | relative_url }}"></script>
+  <script>
+    // Accessible BibTeX toggles
+    document.addEventListener('click', function(e){
+      var btn = e.target.closest('.bibtex-toggle');
+      if(!btn) return;
+      var id = btn.getAttribute('aria-controls');
+      var pre = document.getElementById(id);
+      if(!pre) return;
+      var isHidden = pre.hasAttribute('hidden');
+      if(isHidden){ pre.removeAttribute('hidden'); btn.setAttribute('aria-expanded','true'); }
+      else { pre.setAttribute('hidden',''); btn.setAttribute('aria-expanded','false'); }
+    });
+  </script>
+</body>
 </html>
