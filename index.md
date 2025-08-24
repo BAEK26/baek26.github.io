@@ -13,7 +13,7 @@ permalink: "/"
     I received my B.S. in Computer Science and Engineering from POSTECH and studied abroad at RWTH Aachen University as an exchange student.
   </p>
   <p>
-    My research interests lie in Natural Language Processing (NLP) and Explainable AI (XAI), with a particular focus on uncovering the causes of hallucination in large language models and investigating how knowledge is represented and stored within them. My ultimate goal is to make language models reliable—systems that provide knowledge in a way that is both faithful and interpretable.
+    My research interests lie in Natural Language Processing (NLP) and Explainable AI (XAI), with a particular focus on uncovering the causes of hallucination in large language models and investigating how knowledge is represented and stored within them. My ultimate goal is to make language models reliable—systems that explain knowledge in a user-adapted way and provide faithful, explainable outputs.
   </p>
 </section>
 
