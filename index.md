@@ -7,7 +7,7 @@ permalink: "/"
 <section id="about">
   <h2>About</h2>
   <p>
-    I am Jongeun Baek, a Master’s student in the <a href="https://sailab.kaist.ac.kr/" target="_blank" rel="noopener noreferrer">SAIL</a>ab at the Kim Jaechul Graduate School of AI, KAIST, advised by Prof. Jaesik Choi.
+    I am Jong-eun Baek, a Master’s student in the <a href="https://sailab.kaist.ac.kr/" target="_blank" rel="noopener noreferrer">SAIL</a>ab at the Kim Jaechul Graduate School of AI, KAIST, advised by Prof. Jaesik Choi.
   </p>
   <p>
     I received my B.S. in Computer Science and Engineering from POSTECH and studied abroad at RWTH Aachen University as an exchange student.
