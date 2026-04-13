@@ -29,7 +29,10 @@ permalink: "/"
 </section>
 
 <section id="publications">
-  <h2>Publications</h2>
+  <h2>Selected Publications</h2>
+  <p>
+    For a more complete list of publications, please refer to <a href="https://scholar.google.com/citations?user=SaSaOY4AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.
+  </p>
   {% assign years = site.data.publications | keys | sort | reverse %}
   {% for y in years %}
     {% assign pubs = site.data.publications[y] %}
