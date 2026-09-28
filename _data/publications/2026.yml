@@ -1,8 +1,12 @@
 - title: "Beyond Paraphrases: Generalization Across Task Formats in Parametric Knowledge Editing"
   authors: ["Cheongwoong Kang", "Jongeun Baek", "Yeonjea Kim", "Jaesik Choi"]
   venue: "Findings of EMNLP"
-  tags: ["LLM", "Knowledge Editing"]
+  tags: ["LLM", "Knowledge Editing", "Mechanistic Interpretability"]
   pdf:
   arxiv:
   code:
   project_url:
+- title: "Decision Path Tracing for Causal Analysis in Transformers"
+  authors: ["Won Jo", "Dahee Kwon", "Jongeun Baek", "Cheongwoong Kang", "Jaesik Choi"]
+  venue: "NeurIPS"
+  tags: ["Transformers", "Causal Path", "Circuit", "Mechanistic Interpretability"]
